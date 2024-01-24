@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.popup {
+    width: 270px;
+    border-radius: 18px;
+    text-align: center;
+    padding: 3px 30px 20px;
+    color: gray;
+    font-size: 15px;
+}
+
+.popup:hover{
+    box-shadow: 0 0 15 rgba(0, 0, 0, 0.351);
+    transition: 1s;
+}
+
+.popup .paragrap{
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.open-popup {
+    top:10%;
+}
+
+.popup img {
+    margin-top: -25px;
+    border-radius: 8px;
+    top: 10px;
+}
+
+.popup h2 {
+    font-weight: 9px;
+}
+
+
+
+
